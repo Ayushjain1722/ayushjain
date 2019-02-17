@@ -1,6 +1,7 @@
 body{
   background-image: url(http://www.kennethgomezart.com/img/kenneth-gomez-art-portfolio-background.jpg);
   background-repeat:repeat;
+  background-attachment: fixed;
 }
 .jumbotron {
   height: 400px;
