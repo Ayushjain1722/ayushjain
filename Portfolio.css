@@ -1,0 +1,64 @@
+body{
+  background-image: url(http://www.kennethgomezart.com/img/kenneth-gomez-art-portfolio-background.jpg);
+  background-repeat:repeat;
+}
+.jumbotron {
+  height: 400px;
+  font-family:Major Mono Display;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navbar-nav
+{
+  font-family: Baloo Thambi;
+}
+.navbar-brand{
+  font-family: Baloo Thambi;
+}
+#abc{
+    background-color: yellow;
+  padding-left: 20px;
+  margin-right:1400px;
+  font-family: Pacifico;
+  color: purple;
+}
+.list-group{
+  margin-left: 220px;
+  font-family: Baloo Thambi;
+}
+#cplus,#c{
+  width:200px;
+
+}
+#ha{
+    background-color: yellow;
+  padding-left: 20px;
+  margin-right:1200px;
+  font-family: Pacifico;
+  color: purple;
+}
+#honor{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Pacifico;
+}
+#table,#table2{
+  font-family: Baloo Thambi;
+  margin-left: 200px;
+  color:white;
+   width:1200px;
+}
+#li{
+  background-color: yellow;
+padding-left: 20px;
+margin-right:1300px;
+font-family: Pacifico;
+color: purple;
+}
+#ru{
+  background-color: yellow;
+padding-left: 20px;
+margin-right:1360px;
+font-family: Pacifico;
+color: purple;
+}
