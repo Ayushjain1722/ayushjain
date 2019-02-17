@@ -62,3 +62,8 @@ margin-right:1360px;
 font-family: Pacifico;
 color: purple;
 }
+button{
+  background-color: black;
+  border-radius: 2px;
+  border:none;
+}
