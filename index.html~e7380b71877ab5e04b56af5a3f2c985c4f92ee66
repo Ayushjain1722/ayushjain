@@ -1,0 +1,787 @@
+<<<<<<< current
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <!-- <h1 style="font-family:Baloo Thambi">Checking</h1> -->
+    <title>Ayush Jain</title>
+    <script>
+      function fun(){
+          document.write("Redirecting....");
+          window.location="http://www.khms.ac.in";
+      }
+      function bigImg(x)
+      {
+        x.style.width="120px";
+        x.style.height="120px";
+      }
+      function normalImg(x)
+      {
+        x.style.width="30px";
+        x.style.height="30px";
+      }
+    </script>
+  </head>
+  <body>
+
+<!-- /* NavBar*/ -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="D:\My Photos\myphoto.jpg" class="rounded-circle" width="30" height="30" class="d-inline-block align-top" alt="" >
+  <a class="navbar-brand" href="#">Ayush Jain</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a target="_blank" class="nav-link" href="http:/www.facebook.com">About Ayush</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Default dropup button -->
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+      <button class="dropdown-item" type="button">First</button>
+      <button class="dropdown-item" type="button">Second</button>
+      <button class="dropdown-item" type="button">Third</button>
+    </div>
+  </div>
+</nav>
+<!-- navbar ending -->
+<!-- Jumbotron -->
+<p> </p>
+<div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This website is dedicated to showcase the life of Ayush Jain</p>
+  <hr class="my-4">
+  <p>Aspiring to become an engineer, he is studying in TIET, Patiala. </p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+<!-- Jumbotron Ending -->
+<h2 style="font-family: Pacifico; background-color:yellow; margin-right:1100px;color:purple;">Education And Other Details</h2>
+<table id="table">
+  <tr>
+    <th><img src="C:\Users\ayush\Desktop\Assets\books.png" style="width:220px;"></img></th>
+    <th>Date Of Birth:</th>
+    <th style="font-family:Major Mono Display">17 December, 1999</th>
+    <th> Lives In: </th>
+    <th style="font-family:Major Mono Display">New Delhi, India</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Primary Education: </th>
+    <th style="font-family:Major Mono Display"><a onclick="fun()" href="http:/www.khms.ac.in">Kulachi Hansraj Model School</a></th>
+    <th>College:</th>
+    <th style="font-family:Major Mono Display"><a target="_blank" href="http:/www.thapar.edu">Thapar Institute Of Engineering</a></th>
+  </tr>
+</table>
+<p> </p>
+<h3 id="abc">Skills </h3>
+<table style="margin-left:300px">
+  <tr>
+  <th> </th>
+  <th><img id="cplus" src="C:\Users\ayush\Desktop\Assets\c++.png" alt="" hspace="20px"></th>
+  <th><img id="c" src="C:\Users\ayush\Desktop\Assets\c.png" alt=""hspace="20px"></th>
+  <th><img id="java" src="C:\Users\ayush\Desktop\Assets\java.png" alt="" hspace="20px"></th>
+  <th><img id="sql" src="C:\Users\ayush\Desktop\Assets\sql.png" alt=""hspace="20px"></th>
+  </tr>
+</table>
+<p> </p>
+<h3 id="ha">Honors And Awards</h3>
+<div class="list-group" id="honor">
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 style="font-family:Major Mono Display"class="mb-1">PCM Topper In School</h5>
+    </div>
+    <p style="font-family:Space Mono"class="mb-1">Awarded PCM topper in school along with five trophies for highest marks in Computer, Maths, Physics And Chemistry.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 style="font-family:Major Mono Display"class="mb-1">School Topper For 10 Consecutive Years</h5>
+    </div>
+    <p style="font-family:Space Mono"class="mb-1">Meritorious for 10 consequetive years. Recived many honors such as Scholar Blazer for my performence.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 style="font-family:Major Mono Display"class="mb-1">3 Trophies IN Abacus Championship</h5>
+      <!-- <small class="text-muted">2018</small> -->
+    </div>
+    <p class="mb-1" style="font-family:Space Mono">3 trophies in abacus championship in an abacus championship for speed and accuracy.</p>
+    <!-- <small class="text-muted">Donec id elit non mi porta.</small> -->
+  </a>
+</div>
+<p> </p>
+<h3 id="li">Life Interests</h3>
+<table id="table2">
+  <tr>
+    <th>
+    <div class="card text-white bg-dark mb-3" style="width: 18rem;margin-left:20px;">
+      <img class="card-img-top" src="C:\Users\ayush\Desktop\Assets\cricket.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Cricket</h5>
+        <p class="card-text">Love watching and playing cricket. Also played at academy level.</p>
+      </div>
+    </div>
+  </th>
+    <th><div class="card text-white bg-dark mb-3" style="width: 18rem;margin-left:20px;">
+      <img class="card-img-top" src="C:\Users\ayush\Desktop\Assets\gym.jpg" alt="Card image cap";>
+      <div class="card-body">
+        <h5 class="card-title">Gyming</h5>
+        <p class="card-text">Started while in 7th standard. Lost some 10 kg.</p>
+      </div>
+    </div>
+  </th>
+    <th><div class="card text-white bg-dark mb-3" style="width: 18rem;margin-left:20px;">
+      <img class="card-img-top" src="C:\Users\ayush\Desktop\Assets\gaming.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Video Gaming</h5>
+        <p class="card-text">Played many big games and completed. P.S.:GTA V was the best</p>
+      </div>
+    </div>
+  </th>
+</tr>
+</table>
+<h3 id="ru">Reach Us</h3>
+<form style="font-family:Shadows Into Light;color:white;margin-left:20px;margin-right:20px;">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Name</label>
+    <input type="text" class="form-control" id="firstname" placeholder="Full Name">
+  </div>
+</form>
+<button type="button" class="btn btn-success"style="margin-left:1400px">Submit</button>
+<h3 id="li">Contact Me</h3>
+<table id="table">
+  <tr>
+    <th>Mobile Number:</th>
+    <th style="font-family:Major Mono Display">9871327928</th>
+    <th> Email ID:  </th>
+    <th style="font-family:Major Mono Display">ayushjain1722@gmail.com</th>
+  </tr>
+  <tr>
+    <th>Instagram Username: </th>
+    <th style="font-family:Major Mono Display"><a target="_blank" href="http:/www.instagram.com/ayushjain1722">ayushjain1722</a></th>
+    <th>Linkedin:</th>
+    <th style="font-family:Major Mono Display"><a target="_blank" href="https://www.linkedin.com/in/ayush1722">ayushjain1722</a></th>
+  </tr>
+</table>
+<p> </p>
+<p style="color:white;margin-left:450px">All rights reserved in an ASUS Laptop. PLease contact owner for any query or report.</p>
+  </body>
+
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="Portfolio.css">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <!-- <h1 style="font-family:Baloo Thambi">Checking</h1> -->
+    <title>Ayush Jain</title>
+    <script>
+      function fun(){
+          document.write("Redirecting....");
+          window.location="http://www.khms.ac.in";
+      }
+      function bigImg(x)
+      {
+        x.style.width="120px";
+        x.style.height="120px";
+      }
+      function normalImg(x)
+      {
+        x.style.width="30px";
+        x.style.height="30px";
+      }
+    </script>
+  </head>
+  <body>
+
+<!-- /* NavBar*/ -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="D:\My Photos\myphoto.jpg" class="rounded-circle" width="30" height="30" class="d-inline-block align-top" alt="" >
+  <a class="navbar-brand" href="#">Ayush Jain</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a target="_blank" class="nav-link" href="http:/www.facebook.com">About Ayush</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Default dropup button -->
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+      <button class="dropdown-item" type="button">First</button>
+      <button class="dropdown-item" type="button">Second</button>
+      <button class="dropdown-item" type="button">Third</button>
+    </div>
+  </div>
+</nav>
+<!-- navbar ending -->
+<!-- Jumbotron -->
+<p> </p>
+<div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This website is dedicated to showcase the life of Ayush Jain</p>
+  <hr class="my-4">
+  <p>Aspiring to become an engineer, he is studying in TIET, Patiala. </p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+<!-- Jumbotron Ending -->
+<h2 style="font-family: Pacifico; background-color:yellow; margin-right:1100px;color:purple;">Education And Other Details</h2>
+<table id="table">
+  <tr>
+    <th><img src="C:\Users\ayush\Desktop\Assets\books.png" style="width:220px;"></img></th>
+    <th>Date Of Birth:</th>
+    <th style="font-family:Major Mono Display">17 December, 1999</th>
+    <th> Lives In: </th>
+    <th style="font-family:Major Mono Display">New Delhi, India</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Primary Education: </th>
+    <th style="font-family:Major Mono Display"><a onclick="fun()" href="http:/www.khms.ac.in">Kulachi Hansraj Model School</a></th>
+    <th>College:</th>
+    <th style="font-family:Major Mono Display"><a target="_blank" href="http:/www.thapar.edu">Thapar Institute Of Engineering</a></th>
+  </tr>
+</table>
+<p> </p>
+<h3 id="abc">Skills </h3>
+<table style="margin-left:300px">
+  <tr>
+  <th> </th>
+  <th><img id="cplus" src="C:\Users\ayush\Desktop\Assets\c++.png" alt="" hspace="20px"></th>
+  <th><img id="c" src="C:\Users\ayush\Desktop\Assets\c.png" alt=""hspace="20px"></th>
+  <th><img id="java" src="C:\Users\ayush\Desktop\Assets\java.png" alt="" hspace="20px"></th>
+  <th><img id="sql" src="C:\Users\ayush\Desktop\Assets\sql.png" alt=""hspace="20px"></th>
+  </tr>
+</table>
+<p> </p>
+<h3 id="ha">Honors And Awards</h3>
+<div class="list-group" id="honor">
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 style="font-family:Major Mono Display"class="mb-1">PCM Topper In School</h5>
+    </div>
+    <p style="font-family:Space Mono"class="mb-1">Awarded PCM topper in school along with five trophies for highest marks in Computer, Maths, Physics And Chemistry.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 style="font-family:Major Mono Display"class="mb-1">School Topper For 10 Consecutive Years</h5>
+    </div>
+    <p style="font-family:Space Mono"class="mb-1">Meritorious for 10 consequetive years. Recived many honors such as Scholar Blazer for my performence.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 style="font-family:Major Mono Display"class="mb-1">3 Trophies IN Abacus Championship</h5>
+      <!-- <small class="text-muted">2018</small> -->
+    </div>
+    <p class="mb-1" style="font-family:Space Mono">3 trophies in abacus championship in an abacus championship for speed and accuracy.</p>
+    <!-- <small class="text-muted">Donec id elit non mi porta.</small> -->
+  </a>
+</div>
+<p> </p>
+<h3 id="li">Life Interests</h3>
+<table id="table2">
+  <tr>
+    <th>
+    <div class="card text-white bg-dark mb-3" style="width: 18rem;margin-left:20px;">
+      <img class="card-img-top" src="C:\Users\ayush\Desktop\Assets\cricket.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Cricket</h5>
+        <p class="card-text">Love watching and playing cricket. Also played at academy level.</p>
+      </div>
+    </div>
+  </th>
+    <th><div class="card text-white bg-dark mb-3" style="width: 18rem;margin-left:20px;">
+      <img class="card-img-top" src="C:\Users\ayush\Desktop\Assets\gym.jpg" alt="Card image cap";>
+      <div class="card-body">
+        <h5 class="card-title">Gyming</h5>
+        <p class="card-text">Started while in 7th standard. Lost some 10 kg.</p>
+      </div>
+    </div>
+  </th>
+    <th><div class="card text-white bg-dark mb-3" style="width: 18rem;margin-left:20px;">
+      <img class="card-img-top" src="C:\Users\ayush\Desktop\Assets\gaming.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Video Gaming</h5>
+        <p class="card-text">Played many big games and completed. P.S.:GTA V was the best</p>
+      </div>
+    </div>
+  </th>
+</tr>
+</table>
+<h3 id="ru">Reach Us</h3>
+<form style="font-family:Shadows Into Light;color:white;margin-left:20px;margin-right:20px;">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Name</label>
+    <input type="text" class="form-control" id="firstname" placeholder="Full Name">
+  </div>
+</form>
+<button type="button" class="btn btn-success"style="margin-left:1400px">Submit</button>
+<h3 id="li">Contact Me</h3>
+<table id="table">
+  <tr>
+    <th>Mobile Number:</th>
+    <th style="font-family:Major Mono Display">9871327928</th>
+    <th> Email ID:  </th>
+    <th style="font-family:Major Mono Display">ayushjain1722@gmail.com</th>
+  </tr>
+  <tr>
+    <th>Instagram Username: </th>
+    <th style="font-family:Major Mono Display"><a target="_blank" href="http:/www.instagram.com/ayushjain1722">ayushjain1722</a></th>
+    <th>Linkedin:</th>
+    <th style="font-family:Major Mono Display"><a target="_blank" href="https://www.linkedin.com/in/ayush1722">ayushjain1722</a></th>
+  </tr>
+</table>
+<p> </p>
+<p style="color:white;margin-left:450px">All rights reserved in an ASUS Laptop. PLease contact owner for any query or report.</p>
+  </body>
+
+</html>
+>>>>>>> 991887a6bb731cdf4d56a6de00e826a5189061ca:Portfolio.html
+=======
+<<<<<<< HEAD:index.html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <!-- <h1 style="font-family:Baloo Thambi">Checking</h1> -->
+    <title>Ayush Jain</title>
+    <script>
+      function fun(){
+          document.write("Redirecting....");
+          window.location="http://www.khms.ac.in";
+      }
+      function bigImg(x)
+      {
+        x.style.width="120px";
+        x.style.height="120px";
+      }
+      function normalImg(x)
+      {
+        x.style.width="30px";
+        x.style.height="30px";
+      }
+    </script>
+  </head>
+  <body>
+
+<!-- /* NavBar*/ -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="D:\My Photos\myphoto.jpg" class="rounded-circle" width="30" height="30" class="d-inline-block align-top" alt="" >
+  <a class="navbar-brand" href="#">Ayush Jain</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a target="_blank" class="nav-link" href="http:/www.facebook.com">About Ayush</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Default dropup button -->
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+      <button class="dropdown-item" type="button">First</button>
+      <button class="dropdown-item" type="button">Second</button>
+      <button class="dropdown-item" type="button">Third</button>
+    </div>
+  </div>
+</nav>
+<!-- navbar ending -->
+<!-- Jumbotron -->
+<p> </p>
+<div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This website is dedicated to showcase the life of Ayush Jain</p>
+  <hr class="my-4">
+  <p>Aspiring to become an engineer, he is studying in TIET, Patiala. </p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+<!-- Jumbotron Ending -->
+<h2 style="font-family: Pacifico; background-color:yellow; margin-right:1100px;color:purple;">Education And Other Details</h2>
+<table id="table">
+  <tr>
+    <th><img src="C:\Users\ayush\Desktop\Assets\books.png" style="width:220px;"></img></th>
+    <th>Date Of Birth:</th>
+    <th style="font-family:Major Mono Display">17 December, 1999</th>
+    <th> Lives In: </th>
+    <th style="font-family:Major Mono Display">New Delhi, India</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Primary Education: </th>
+    <th style="font-family:Major Mono Display"><a onclick="fun()" href="http:/www.khms.ac.in">Kulachi Hansraj Model School</a></th>
+    <th>College:</th>
+    <th style="font-family:Major Mono Display"><a target="_blank" href="http:/www.thapar.edu">Thapar Institute Of Engineering</a></th>
+  </tr>
+</table>
+<p> </p>
+<h3 id="abc">Skills </h3>
+<table style="margin-left:300px">
+  <tr>
+  <th> </th>
+  <th><img id="cplus" src="C:\Users\ayush\Desktop\Assets\c++.png" alt="" hspace="20px"></th>
+  <th><img id="c" src="C:\Users\ayush\Desktop\Assets\c.png" alt=""hspace="20px"></th>
+  <th><img id="java" src="C:\Users\ayush\Desktop\Assets\java.png" alt="" hspace="20px"></th>
+  <th><img id="sql" src="C:\Users\ayush\Desktop\Assets\sql.png" alt=""hspace="20px"></th>
+  </tr>
+</table>
+<p> </p>
+<h3 id="ha">Honors And Awards</h3>
+<div class="list-group" id="honor">
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 style="font-family:Major Mono Display"class="mb-1">PCM Topper In School</h5>
+    </div>
+    <p style="font-family:Space Mono"class="mb-1">Awarded PCM topper in school along with five trophies for highest marks in Computer, Maths, Physics And Chemistry.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 style="font-family:Major Mono Display"class="mb-1">School Topper For 10 Consecutive Years</h5>
+    </div>
+    <p style="font-family:Space Mono"class="mb-1">Meritorious for 10 consequetive years. Recived many honors such as Scholar Blazer for my performence.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 style="font-family:Major Mono Display"class="mb-1">3 Trophies IN Abacus Championship</h5>
+      <!-- <small class="text-muted">2018</small> -->
+    </div>
+    <p class="mb-1" style="font-family:Space Mono">3 trophies in abacus championship in an abacus championship for speed and accuracy.</p>
+    <!-- <small class="text-muted">Donec id elit non mi porta.</small> -->
+  </a>
+</div>
+<p> </p>
+<h3 id="li">Life Interests</h3>
+<table id="table2">
+  <tr>
+    <th>
+    <div class="card text-white bg-dark mb-3" style="width: 18rem;margin-left:20px;">
+      <img class="card-img-top" src="C:\Users\ayush\Desktop\Assets\cricket.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Cricket</h5>
+        <p class="card-text">Love watching and playing cricket. Also played at academy level.</p>
+      </div>
+    </div>
+  </th>
+    <th><div class="card text-white bg-dark mb-3" style="width: 18rem;margin-left:20px;">
+      <img class="card-img-top" src="C:\Users\ayush\Desktop\Assets\gym.jpg" alt="Card image cap";>
+      <div class="card-body">
+        <h5 class="card-title">Gyming</h5>
+        <p class="card-text">Started while in 7th standard. Lost some 10 kg.</p>
+      </div>
+    </div>
+  </th>
+    <th><div class="card text-white bg-dark mb-3" style="width: 18rem;margin-left:20px;">
+      <img class="card-img-top" src="C:\Users\ayush\Desktop\Assets\gaming.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Video Gaming</h5>
+        <p class="card-text">Played many big games and completed. P.S.:GTA V was the best</p>
+      </div>
+    </div>
+  </th>
+</tr>
+</table>
+<h3 id="ru">Reach Us</h3>
+<form style="font-family:Shadows Into Light;color:white;margin-left:20px;margin-right:20px;">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Name</label>
+    <input type="text" class="form-control" id="firstname" placeholder="Full Name">
+  </div>
+</form>
+<button type="button" class="btn btn-success"style="margin-left:1400px">Submit</button>
+<h3 id="li">Contact Me</h3>
+<table id="table">
+  <tr>
+    <th>Mobile Number:</th>
+    <th style="font-family:Major Mono Display">9871327928</th>
+    <th> Email ID:  </th>
+    <th style="font-family:Major Mono Display">ayushjain1722@gmail.com</th>
+  </tr>
+  <tr>
+    <th>Instagram Username: </th>
+    <th style="font-family:Major Mono Display"><a target="_blank" href="http:/www.instagram.com/ayushjain1722">ayushjain1722</a></th>
+    <th>Linkedin:</th>
+    <th style="font-family:Major Mono Display"><a target="_blank" href="https://www.linkedin.com/in/ayush1722">ayushjain1722</a></th>
+  </tr>
+</table>
+<p> </p>
+<p style="color:white;margin-left:450px">All rights reserved in an ASUS Laptop. PLease contact owner for any query or report.</p>
+  </body>
+
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="Portfolio.css">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Thambi" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <!-- <h1 style="font-family:Baloo Thambi">Checking</h1> -->
+    <title>Ayush Jain</title>
+    <script>
+      function fun(){
+          document.write("Redirecting....");
+          window.location="http://www.khms.ac.in";
+      }
+      function bigImg(x)
+      {
+        x.style.width="120px";
+        x.style.height="120px";
+      }
+      function normalImg(x)
+      {
+        x.style.width="30px";
+        x.style.height="30px";
+      }
+    </script>
+  </head>
+  <body>
+
+<!-- /* NavBar*/ -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="D:\My Photos\myphoto.jpg" class="rounded-circle" width="30" height="30" class="d-inline-block align-top" alt="" >
+  <a class="navbar-brand" href="#">Ayush Jain</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a target="_blank" class="nav-link" href="http:/www.facebook.com">About Ayush</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Default dropup button -->
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+      <button class="dropdown-item" type="button">First</button>
+      <button class="dropdown-item" type="button">Second</button>
+      <button class="dropdown-item" type="button">Third</button>
+    </div>
+  </div>
+</nav>
+<!-- navbar ending -->
+<!-- Jumbotron -->
+<p> </p>
+<div class="jumbotron">
+  <h1 class="display-4">Hello, world!</h1>
+  <p class="lead">This website is dedicated to showcase the life of Ayush Jain</p>
+  <hr class="my-4">
+  <p>Aspiring to become an engineer, he is studying in TIET, Patiala. </p>
+  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+<!-- Jumbotron Ending -->
+<h2 style="font-family: Pacifico; background-color:yellow; margin-right:1100px;color:purple;">Education And Other Details</h2>
+<table id="table">
+  <tr>
+    <th><img src="C:\Users\ayush\Desktop\Assets\books.png" style="width:220px;"></img></th>
+    <th>Date Of Birth:</th>
+    <th style="font-family:Major Mono Display">17 December, 1999</th>
+    <th> Lives In: </th>
+    <th style="font-family:Major Mono Display">New Delhi, India</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Primary Education: </th>
+    <th style="font-family:Major Mono Display"><a onclick="fun()" href="http:/www.khms.ac.in">Kulachi Hansraj Model School</a></th>
+    <th>College:</th>
+    <th style="font-family:Major Mono Display"><a target="_blank" href="http:/www.thapar.edu">Thapar Institute Of Engineering</a></th>
+  </tr>
+</table>
+<p> </p>
+<h3 id="abc">Skills </h3>
+<table style="margin-left:300px">
+  <tr>
+  <th> </th>
+  <th><img id="cplus" src="C:\Users\ayush\Desktop\Assets\c++.png" alt="" hspace="20px"></th>
+  <th><img id="c" src="C:\Users\ayush\Desktop\Assets\c.png" alt=""hspace="20px"></th>
+  <th><img id="java" src="C:\Users\ayush\Desktop\Assets\java.png" alt="" hspace="20px"></th>
+  <th><img id="sql" src="C:\Users\ayush\Desktop\Assets\sql.png" alt=""hspace="20px"></th>
+  </tr>
+</table>
+<p> </p>
+<h3 id="ha">Honors And Awards</h3>
+<div class="list-group" id="honor">
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 style="font-family:Major Mono Display"class="mb-1">PCM Topper In School</h5>
+    </div>
+    <p style="font-family:Space Mono"class="mb-1">Awarded PCM topper in school along with five trophies for highest marks in Computer, Maths, Physics And Chemistry.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 style="font-family:Major Mono Display"class="mb-1">School Topper For 10 Consecutive Years</h5>
+    </div>
+    <p style="font-family:Space Mono"class="mb-1">Meritorious for 10 consequetive years. Recived many honors such as Scholar Blazer for my performence.</p>
+  </a>
+  <a href="#" class="list-group-item list-group-item-action list-group-item-success">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 style="font-family:Major Mono Display"class="mb-1">3 Trophies IN Abacus Championship</h5>
+      <!-- <small class="text-muted">2018</small> -->
+    </div>
+    <p class="mb-1" style="font-family:Space Mono">3 trophies in abacus championship in an abacus championship for speed and accuracy.</p>
+    <!-- <small class="text-muted">Donec id elit non mi porta.</small> -->
+  </a>
+</div>
+<p> </p>
+<h3 id="li">Life Interests</h3>
+<table id="table2">
+  <tr>
+    <th>
+    <div class="card text-white bg-dark mb-3" style="width: 18rem;margin-left:20px;">
+      <img class="card-img-top" src="C:\Users\ayush\Desktop\Assets\cricket.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Cricket</h5>
+        <p class="card-text">Love watching and playing cricket. Also played at academy level.</p>
+      </div>
+    </div>
+  </th>
+    <th><div class="card text-white bg-dark mb-3" style="width: 18rem;margin-left:20px;">
+      <img class="card-img-top" src="C:\Users\ayush\Desktop\Assets\gym.jpg" alt="Card image cap";>
+      <div class="card-body">
+        <h5 class="card-title">Gyming</h5>
+        <p class="card-text">Started while in 7th standard. Lost some 10 kg.</p>
+      </div>
+    </div>
+  </th>
+    <th><div class="card text-white bg-dark mb-3" style="width: 18rem;margin-left:20px;">
+      <img class="card-img-top" src="C:\Users\ayush\Desktop\Assets\gaming.png" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Video Gaming</h5>
+        <p class="card-text">Played many big games and completed. P.S.:GTA V was the best</p>
+      </div>
+    </div>
+  </th>
+</tr>
+</table>
+<h3 id="ru">Reach Us</h3>
+<form style="font-family:Shadows Into Light;color:white;margin-left:20px;margin-right:20px;">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputAddress">Name</label>
+    <input type="text" class="form-control" id="firstname" placeholder="Full Name">
+  </div>
+</form>
+<button type="button" class="btn btn-success"style="margin-left:1400px">Submit</button>
+<h3 id="li">Contact Me</h3>
+<table id="table">
+  <tr>
+    <th>Mobile Number:</th>
+    <th style="font-family:Major Mono Display">9871327928</th>
+    <th> Email ID:  </th>
+    <th style="font-family:Major Mono Display">ayushjain1722@gmail.com</th>
+  </tr>
+  <tr>
+    <th>Instagram Username: </th>
+    <th style="font-family:Major Mono Display"><a target="_blank" href="http:/www.instagram.com/ayushjain1722">ayushjain1722</a></th>
+    <th>Linkedin:</th>
+    <th style="font-family:Major Mono Display"><a target="_blank" href="https://www.linkedin.com/in/ayush1722">ayushjain1722</a></th>
+  </tr>
+</table>
+<p> </p>
+<p style="color:white;margin-left:450px">All rights reserved in an ASUS Laptop. PLease contact owner for any query or report.</p>
+  </body>
+
+</html>
+>>>>>>> 991887a6bb731cdf4d56a6de00e826a5189061ca:Portfolio.html
+>>>>>>> before discard
