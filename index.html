@@ -15,6 +15,9 @@
       confirm("Welcome To Ayush Jain's Website. Press Ok To Continue ");
       function fun(){
           document.write("Redirecting....");
+          var imag=document.createElement("img");
+          imag.src="loader.gif";
+          document.body.appendChild(imag);
           window.location="http://www.khms.ac.in";
       }
       function bigImg(x)
