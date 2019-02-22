@@ -68,3 +68,15 @@ button{
   border-radius: 2px;
   border:none;
 }
+#one:link, #one:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#one:hover, #one:active {
+  background-color: #FFCA33;
+}
