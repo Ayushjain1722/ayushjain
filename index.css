@@ -80,3 +80,52 @@ button{
 #one:hover, #one:active {
   background-color: #FFCA33;
 }
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #111111;
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding: 10px; /* Add some padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 90%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+#skillbar{
+    color: white;
+    padding-left: 30px;
+    font-family:Baloo Thambi;
+}
